@@ -1,0 +1,27 @@
+PS C:\Users\shinn\OneDrive\デスクトップ\HtML_CSS> cd C:\Users\shinn\OneDrive\デスクトップ\git_challenge
+PS C:\Users\shinn\OneDrive\デスクトップ\git_challenge> git init
+Initialized empty Git repository in C:/Users/shinn/OneDrive/繝・せ繧ｯ繝医ャ繝・git_challenge/.git/
+PS C:\Users\shinn\OneDrive\デスクトップ\git_challenge> git add hello_world.txt
+fatal: pathspec 'hello_world.txt' did not match any files
+PS C:\Users\shinn\OneDrive\デスクトップ\git_challenge> git add hello_world.txt
+PS C:\Users\shinn\OneDrive\デスクトップ\git_challenge> git commit -m"hello_world.txを追加"
+[main (root-commit) 82b3594] hello_world.tx繧定ｿｽ蜉
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\shinn\OneDrive\デスクトップ\git_challenge> git add hello_world.txt
+PS C:\Users\shinn\OneDrive\デスクトップ\git_challenge> git commit -m "日本語訳を追記"
+[main c539b6a] 譌･譛ｬ隱櫁ｨｳ繧定ｿｽ險
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\shinn\OneDrive\デスクトップ\git_challenge> git log
+commit c539b6aacf7337f6cab3ddef9ac6a65d04152a21 (HEAD -> main)
+Author: shin-34 <shinmegg@gmail.com>
+Date:   Sun May 12 23:54:10 2024 +0900
+
+    日本語訳を追記
+
+commit 82b3594225e45b848187df3d6ee6611617a7b525
+Author: shin-34 <shinmegg@gmail.com>
+Date:   Sun May 12 23:51:58 2024 +0900
+
+    hello_world.txを追加
+PS C:\Users\shinn\OneDrive\デスクトップ\git_challenge>
